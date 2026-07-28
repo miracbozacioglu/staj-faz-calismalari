@@ -45,7 +45,7 @@ akışı (feature-branch) pratiği yapılır.
 
 <tr><td align="center">✅</td><td><b>H1 · Gün 1</b></td><td>Veri Tipleri &amp; Değişkenler</td><td>İsim / yaş / meslek bilgisini yazdırma · <code>decimal</code> hassasiyet farkı</td></tr>
 <tr><td align="center">✅</td><td><b>H1 · Gün 2</b></td><td>If / Else &amp; Karşılaştırma Op.</td><td>Yaşa göre "Ehliyet alabilir / alamaz" · ardışık if vs. else if</td></tr>
-<tr><td align="center">⬜</td><td>H1 · Gün 3</td><td>Döngüler (for / while)</td><td>1–50 arası çift sayıları yazdırma</td></tr>
+<tr><td align="center">✅</td><td>H1 · Gün 3</td><td>Döngüler (for / while)</td><td>1–50 arası çift sayıları yazdırma</td></tr>
 <tr><td align="center">⬜</td><td>H1 · Gün 4</td><td>Diziler (Arrays)</td><td>5 şehirlik dizi + döngü ile yazdırma</td></tr>
 <tr><td align="center">⬜</td><td>H1 · Gün 5</td><td>Metotlar &amp; Parametreler</td><td>İki sayıyı toplayan void metot · DRY prensibi</td></tr>
 <tr><td align="center">⬜</td><td>H2 · Gün 1</td><td>Class &amp; Object</td><td><code>Ogrenci</code> sınıfı ve nesne üretimi</td></tr>
