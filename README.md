@@ -48,11 +48,11 @@ akışı (feature-branch) pratiği yapılır.
 <tr><td align="center">✅</td><td>H1 · Gün 3</td><td>Döngüler (for / while)</td><td>1–50 arası çift sayıları yazdırma</td></tr>
 <tr><td align="center">✅</td><td>H1 · Gün 4</td><td>Diziler (Arrays)</td><td>5 şehirlik dizi + döngü ile yazdırma</td></tr>
 <tr><td align="center">✅</td><td>H1 · Gün 5</td><td>Metotlar &amp; Parametreler</td><td>İki sayıyı toplayan void metot · DRY prensibi</td></tr>
-<tr><td align="center">⬜</td><td>H2 · Gün 1</td><td>Class &amp; Object</td><td><code>Ogrenci</code> sınıfı ve nesne üretimi</td></tr>
-<tr><td align="center">⬜</td><td>H2 · Gün 2</td><td>Constructor</td><td><code>Kitap</code> sınıfına zorunlu alan constructor'ı</td></tr>
-<tr><td align="center">⬜</td><td>H2 · Gün 3</td><td>Encapsulation (get/set)</td><td>Negatif fiyatı engelleyen set bloğu</td></tr>
-<tr><td align="center">⬜</td><td>H2 · Gün 4</td><td>Inheritance (Kalıtım)</td><td><code>Canli → Kedi, Kopek</code> türetme</td></tr>
-<tr><td align="center">⬜</td><td>H2 · Gün 5</td><td>List&lt;T&gt; Koleksiyonu</td><td>Liste ekleme / silme / sayma</td></tr>
+<tr><td align="center">✅</td><td>H2 · Gün 1</td><td>Class &amp; Object</td><td><code>Ogrenci</code> sınıfı ve nesne üretimi</td></tr>
+<tr><td align="center">✅</td><td>H2 · Gün 2</td><td>Constructor</td><td><code>Kitap</code> sınıfına zorunlu alan constructor'ı</td></tr>
+<tr><td align="center">✅</td><td>H2 · Gün 3</td><td>Encapsulation (get/set)</td><td>Negatif fiyatı engelleyen set bloğu</td></tr>
+<tr><td align="center">✅</td><td>H2 · Gün 4</td><td>Inheritance (Kalıtım)</td><td><code>Canli → Kedi, Kopek</code> türetme</td></tr>
+<tr><td align="center">✅</td><td>H2 · Gün 5</td><td>List&lt;T&gt; Koleksiyonu</td><td>Liste ekleme / silme / sayma</td></tr>
 </table>
 
 ### 🗄️ FAZ 2 — Veri Yönetimi ve ORM
