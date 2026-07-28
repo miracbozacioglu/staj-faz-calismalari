@@ -1,8 +1,7 @@
 <div align="center">
 
-# 🚀 Staj Faz Çalışmaları
+# 🎯 Staj Faz Çalışmaları
 
-### Öner Bilişim A.Ş. · Yazılım Geliştirme Stajı
 
 Programlama temellerinden başlayıp kurumsal standartlarda bir **Backend API** projesine
 uzanan; gün gün ilerleyen uygulamalı staj çalışmalarım.
@@ -61,9 +60,17 @@ akışı (feature-branch) pratiği yapılır.
 > Verinin kalıcı saklanması, ilişkisel veritabanı tasarımı ve Entity Framework Core.
 
 <table>
-<tr><th>Durum</th><th>Konu Başlıkları</th></tr>
-<tr><td align="center">⬜</td><td><b>Hafta 3 · SQL:</b> RDBMS &amp; tablolar · SELECT/INSERT/UPDATE/DELETE · WHERE, AND, OR · ORDER BY &amp; LIKE · Primary/Foreign Key</td></tr>
-<tr><td align="center">⬜</td><td><b>Hafta 4 · EF Core:</b> ORM mantığı · DbContext &amp; DbSet · Code-First Migrations · LINQ ile ekleme/listeleme · Update &amp; Delete (SaveChanges)</td></tr>
+<tr><th>Durum</th><th>Gün</th><th>Konu</th><th>Pratik Çıktı</th></tr>
+<tr><td align="center">⬜</td><td>H3 · Gün 1</td><td>İlişkisel Veritabanı (RDBMS)</td><td>SSMS ile <code>Kullanicilar</code> tablosu oluşturma</td></tr>
+<tr><td align="center">⬜</td><td>H3 · Gün 2</td><td>Temel SQL Sorguları</td><td>SELECT / INSERT / UPDATE / DELETE ile kayıt ekleme &amp; güncelleme</td></tr>
+<tr><td align="center">⬜</td><td>H3 · Gün 3</td><td>Filtreleme (WHERE, AND, OR)</td><td>Yaşı 18+ ve durumu "Aktif" kullanıcıları listeleme</td></tr>
+<tr><td align="center">⬜</td><td>H3 · Gün 4</td><td>Sıralama &amp; Arama</td><td>'A' ile başlayanları yaşa göre <code>ORDER BY</code> + <code>LIKE</code></td></tr>
+<tr><td align="center">⬜</td><td>H3 · Gün 5</td><td>Tablo İlişkileri (PK / FK)</td><td><code>Kategoriler</code> ↔ <code>Urunler</code> foreign key bağı</td></tr>
+<tr><td align="center">⬜</td><td>H4 · Gün 1</td><td>ORM Nedir?</td><td>Console projesine EF Core + SQL Server NuGet kurulumu</td></tr>
+<tr><td align="center">⬜</td><td>H4 · Gün 2</td><td>DbContext &amp; DbSet</td><td><code>AppDbContext</code> ve bağlantı ayarları</td></tr>
+<tr><td align="center">⬜</td><td>H4 · Gün 3</td><td>Code-First &amp; Migrations</td><td><code>Add-Migration</code> + <code>Update-Database</code></td></tr>
+<tr><td align="center">⬜</td><td>H4 · Gün 4</td><td>Veri Ekleme &amp; Listeleme</td><td>LINQ <code>Select</code> / <code>Where</code> ile ekle-listele</td></tr>
+<tr><td align="center">⬜</td><td>H4 · Gün 5</td><td>Güncelleme &amp; Silme</td><td>ID=1 kaydını bulup <code>SaveChanges</code> ile güncelleme</td></tr>
 </table>
 
 ### 🌐 FAZ 3 — Ağ İletişimi ve Web API Geliştirme
@@ -71,9 +78,17 @@ akışı (feature-branch) pratiği yapılır.
 > İstemci-sunucu haberleşmesi, HTTP protokolü ve ilk API uç noktaları.
 
 <table>
-<tr><th>Durum</th><th>Konu Başlıkları</th></tr>
-<tr><td align="center">⬜</td><td><b>Hafta 5 · Web API'ye Giriş:</b> Client/Server · HTTP metotları · Program.cs · Controller &amp; Routing · Swagger</td></tr>
-<tr><td align="center">⬜</td><td><b>Hafta 6 · CRUD API:</b> RESTful route'lar · FromRoute/FromBody · HTTP durum kodları · POST/PUT/DELETE işlemleri</td></tr>
+<tr><th>Durum</th><th>Gün</th><th>Konu</th><th>Pratik Çıktı</th></tr>
+<tr><td align="center">⬜</td><td>H5 · Gün 1</td><td>Client &amp; Server Mimarisi</td><td>Postman kurulumu + ücretsiz API'ye GET isteği</td></tr>
+<tr><td align="center">⬜</td><td>H5 · Gün 2</td><td>HTTP Metotları</td><td>Postman ile JSON gövdeli POST isteği simülasyonu</td></tr>
+<tr><td align="center">⬜</td><td>H5 · Gün 3</td><td>ASP.NET Core Web API Şablonu</td><td>Yeni proje açma &amp; <code>Program.cs</code> incelemesi</td></tr>
+<tr><td align="center">⬜</td><td>H5 · Gün 4</td><td>Controller &amp; Routing</td><td><code>OgrenciController</code> + statik string dönen GET</td></tr>
+<tr><td align="center">⬜</td><td>H5 · Gün 5</td><td>Swagger Arayüzü</td><td>İlk endpoint'i Swagger üzerinden test etme</td></tr>
+<tr><td align="center">⬜</td><td>H6 · Gün 1</td><td>Route Mantığı</td><td>Statik <code>List&lt;Ogrenci&gt;</code> dönen <code>[HttpGet]</code></td></tr>
+<tr><td align="center">⬜</td><td>H6 · Gün 2</td><td>FromRoute &amp; FromBody</td><td><code>[HttpGet("{id}")]</code> ile ID'ye göre kayıt bulma</td></tr>
+<tr><td align="center">⬜</td><td>H6 · Gün 3</td><td>HTTP Durum Kodları</td><td><code>NotFound()</code> / <code>Ok()</code> (200 · 404 · 400)</td></tr>
+<tr><td align="center">⬜</td><td>H6 · Gün 4</td><td>POST ile Veri Ekleme</td><td>Gelen JSON'u yakalayıp listeye ekleyen <code>[HttpPost]</code></td></tr>
+<tr><td align="center">⬜</td><td>H6 · Gün 5</td><td>PUT &amp; DELETE</td><td>ID'ye göre güncelleme &amp; silme · Soft-Delete kavramı</td></tr>
 </table>
 
 ### 🏛️ FAZ 4 — İleri Mimari, Güvenlik ve Standartlar
@@ -81,10 +96,22 @@ akışı (feature-branch) pratiği yapılır.
 > Kurumsal standartlar: gevşek bağlılık, hata yönetimi, katmanlı mimari.
 
 <table>
-<tr><th>Durum</th><th>Konu Başlıkları</th></tr>
-<tr><td align="center">⬜</td><td><b>Hafta 7 · Gerçek Veritabanı:</b> appsettings.json · Dependency Injection · Constructor Injection · async/await · Tracking &amp; SaveChangesAsync</td></tr>
-<tr><td align="center">⬜</td><td><b>Hafta 8 · DTO &amp; Hata Kontrolü:</b> DTO kavramı · Manuel mapping · Validation (Fail Fast) · try-catch &amp; 500 · LINQ arama</td></tr>
-<tr><td align="center">⬜</td><td><b>Hafta 9 · Servis Katmanı:</b> Separation of Concerns · Interface · Servis implementasyonu · AddScoped · Controller sadeleştirme</td></tr>
+<tr><th>Durum</th><th>Gün</th><th>Konu</th><th>Pratik Çıktı</th></tr>
+<tr><td align="center">⬜</td><td>H7 · Gün 1</td><td>Connection String</td><td>Bağlantı dizesini <code>appsettings.json</code>'a ekleme</td></tr>
+<tr><td align="center">⬜</td><td>H7 · Gün 2</td><td>Dependency Injection</td><td><code>AppDbContext</code>'i <code>Program.cs</code>'te register etme</td></tr>
+<tr><td align="center">⬜</td><td>H7 · Gün 3</td><td>Constructor Injection</td><td><code>UrunlerController</code>'a DbContext enjekte etme</td></tr>
+<tr><td align="center">⬜</td><td>H7 · Gün 4</td><td>Asenkron İstek</td><td><code>async/await</code> + <code>ToListAsync()</code> GET endpoint</td></tr>
+<tr><td align="center">⬜</td><td>H7 · Gün 5</td><td>Tracking &amp; Kaydetme</td><td><code>SaveChangesAsync()</code> ile gerçek DB'ye ürün ekleme</td></tr>
+<tr><td align="center">⬜</td><td>H8 · Gün 1</td><td>DTO Kavramı</td><td><code>UrunResponseDto</code> sınıfı oluşturma</td></tr>
+<tr><td align="center">⬜</td><td>H8 · Gün 2</td><td>Manuel Mapping</td><td><code>Urun</code> → <code>UrunResponseDto</code> dönüşümü</td></tr>
+<tr><td align="center">⬜</td><td>H8 · Gün 3</td><td>Validation (Fail Fast)</td><td><code>if</code> blokları ile gelen veriyi doğrulama</td></tr>
+<tr><td align="center">⬜</td><td>H8 · Gün 4</td><td>try-catch &amp; Hata Yönetimi</td><td>Çökme durumunda 500 Internal Server Error dönme</td></tr>
+<tr><td align="center">⬜</td><td>H8 · Gün 5</td><td>LINQ ile Arama</td><td>Ürün isimlerinde <code>Contains</code> ile filtreleme</td></tr>
+<tr><td align="center">⬜</td><td>H9 · Gün 1</td><td>Separation of Concerns</td><td><code>Services</code> klasörünün açılması</td></tr>
+<tr><td align="center">⬜</td><td>H9 · Gün 2</td><td>Interface</td><td><code>IUrunService</code> arayüzünün tanımlanması</td></tr>
+<tr><td align="center">⬜</td><td>H9 · Gün 3</td><td>Servis Implementasyonu</td><td><code>UrunService</code> + DbContext'in servise taşınması</td></tr>
+<tr><td align="center">⬜</td><td>H9 · Gün 4</td><td>IoC Container Kaydı</td><td><code>AddScoped</code> ile servisi kaydetme</td></tr>
+<tr><td align="center">⬜</td><td>H9 · Gün 5</td><td>Controller Sadeleştirme</td><td>DbContext'i çıkarıp servis metotlarını çağırma (Refactoring)</td></tr>
 </table>
 
 ### 🎓 FAZ 5 — Bitirme Projesi (MVP)
