@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun1-VeriTipleri", "Gun1-Ve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun2-If-Else", "Gun2-If-Else\Gun2-If-Else.csproj", "{6AEE0EBC-74D8-4502-A9F2-4BFC4369ACAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun3-Donguler", "Gun3-Donguler\Gun3-Donguler.csproj", "{515A259B-A617-42A9-98DD-785DFFFA6717}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6AEE0EBC-74D8-4502-A9F2-4BFC4369ACAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AEE0EBC-74D8-4502-A9F2-4BFC4369ACAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AEE0EBC-74D8-4502-A9F2-4BFC4369ACAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515A259B-A617-42A9-98DD-785DFFFA6717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515A259B-A617-42A9-98DD-785DFFFA6717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515A259B-A617-42A9-98DD-785DFFFA6717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515A259B-A617-42A9-98DD-785DFFFA6717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
