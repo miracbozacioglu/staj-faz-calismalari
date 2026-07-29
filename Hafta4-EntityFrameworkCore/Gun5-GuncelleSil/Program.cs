@@ -6,35 +6,33 @@
         {
             using (var context = new AppDbContext())
             {
-                // ------ GÜNCELLEME (UPDATE'in karşılığı) ------
-
-                // Önce nesneyi veritabanından buluyoruz (bu an, DbContext o nesneyi "izlemeye" başlıyor)
+               
                 var kullanici = context.Kullanicilar.FirstOrDefault(k => k.KullaniciID == 1);
 
                 if (kullanici != null)
                 {
                     Console.WriteLine($"Güncelleme öncesi: {kullanici.Ad} {kullanici.Soyad}");
 
-                    kullanici.Soyad = "Yılmaz-Güncel";   // sadece C# nesnesinde değişiklik yapıyoruz
+                    kullanici.Soyad = "Yılmaz-Güncel";  
 
-                    context.SaveChanges();               // EF Core farkı algılayıp SADECE Soyad için UPDATE üretir
+                    context.SaveChanges();              
 
                     Console.WriteLine($"Güncelleme sonrası: {kullanici.Ad} {kullanici.Soyad}\n");
                 }
 
-                // ------ SİLME (DELETE'in karşılığı) ------
+
 
                 var silinecekKullanici = context.Kullanicilar.FirstOrDefault(k => k.KullaniciID == 2);
 
                 if (silinecekKullanici != null)
                 {
-                    context.Kullanicilar.Remove(silinecekKullanici);   // silme niyetini işaretle
-                    context.SaveChanges();                               // şimdi gerçekten sil
+                    context.Kullanicilar.Remove(silinecekKullanici);   
+                    context.SaveChanges();                               
 
                     Console.WriteLine($"{silinecekKullanici.Ad} silindi.");
                 }
 
-                // ------ Doğrulama ------
+                
                 Console.WriteLine("\nGüncel liste:");
                 foreach (var k in context.Kullanicilar.ToList())
                 {
