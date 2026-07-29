@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun2-DbContext", "Gun2-DbCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun3-Migrations", "Gun3-Migrations\Gun3-Migrations.csproj", "{A6486DC9-B17F-4348-880B-E24895FBCB3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4-VeriEkleListele", "Gun4-VeriEkleListele\Gun4-VeriEkleListele.csproj", "{E46464D5-632A-4FF3-BCE1-4E2364EFBF99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A6486DC9-B17F-4348-880B-E24895FBCB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6486DC9-B17F-4348-880B-E24895FBCB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6486DC9-B17F-4348-880B-E24895FBCB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46464D5-632A-4FF3-BCE1-4E2364EFBF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46464D5-632A-4FF3-BCE1-4E2364EFBF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46464D5-632A-4FF3-BCE1-4E2364EFBF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46464D5-632A-4FF3-BCE1-4E2364EFBF99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
