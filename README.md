@@ -61,10 +61,10 @@ akışı (feature-branch) pratiği yapılır.
 
 <table>
 <tr><th>Durum</th><th>Gün</th><th>Konu</th><th>Pratik Çıktı</th></tr>
-<tr><td align="center">⬜</td><td>H3 · Gün 1</td><td>İlişkisel Veritabanı (RDBMS)</td><td>SSMS ile <code>Kullanicilar</code> tablosu oluşturma</td></tr>
-<tr><td align="center">⬜</td><td>H3 · Gün 2</td><td>Temel SQL Sorguları</td><td>SELECT / INSERT / UPDATE / DELETE ile kayıt ekleme &amp; güncelleme</td></tr>
-<tr><td align="center">⬜</td><td>H3 · Gün 3</td><td>Filtreleme (WHERE, AND, OR)</td><td>Yaşı 18+ ve durumu "Aktif" kullanıcıları listeleme</td></tr>
-<tr><td align="center">⬜</td><td>H3 · Gün 4</td><td>Sıralama &amp; Arama</td><td>'A' ile başlayanları yaşa göre <code>ORDER BY</code> + <code>LIKE</code></td></tr>
+<tr><td align="center">✅</td><td>H3 · Gün 1</td><td>İlişkisel Veritabanı (RDBMS)</td><td>SSMS ile <code>Kullanicilar</code> tablosu oluşturma</td></tr>
+<tr><td align="center">✅</td><td>H3 · Gün 2</td><td>Temel SQL Sorguları</td><td>SELECT / INSERT / UPDATE / DELETE ile kayıt ekleme &amp; güncelleme</td></tr>
+<tr><td align="center">✅</td><td>H3 · Gün 3</td><td>Filtreleme (WHERE, AND, OR)</td><td>Yaşı 18+ ve durumu "Aktif" kullanıcıları listeleme</td></tr>
+<tr><td align="center">✅</td><td>H3 · Gün 4</td><td>Sıralama &amp; Arama</td><td>'A' ile başlayanları yaşa göre <code>ORDER BY</code> + <code>LIKE</code></td></tr>
 <tr><td align="center">⬜</td><td>H3 · Gün 5</td><td>Tablo İlişkileri (PK / FK)</td><td><code>Kategoriler</code> ↔ <code>Urunler</code> foreign key bağı</td></tr>
 <tr><td align="center">⬜</td><td>H4 · Gün 1</td><td>ORM Nedir?</td><td>Console projesine EF Core + SQL Server NuGet kurulumu</td></tr>
 <tr><td align="center">⬜</td><td>H4 · Gün 2</td><td>DbContext &amp; DbSet</td><td><code>AppDbContext</code> ve bağlantı ayarları</td></tr>
