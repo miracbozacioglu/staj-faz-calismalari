@@ -1,0 +1,6 @@
+@Gun5_Swagger_HostAddress = http://localhost:5125
+
+GET {{Gun5_Swagger_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
