@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun3-WebApiProjesi", "Gun3-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4-Controller", "Gun4-Controller\Gun4-Controller.csproj", "{37A545F6-1D5B-415B-B6BC-F1809280C27A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun5-Swagger", "Gun5-Swagger\Gun5-Swagger.csproj", "{C6FD1E33-DA54-4B9B-B21F-BCC74B4255BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{37A545F6-1D5B-415B-B6BC-F1809280C27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37A545F6-1D5B-415B-B6BC-F1809280C27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37A545F6-1D5B-415B-B6BC-F1809280C27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6FD1E33-DA54-4B9B-B21F-BCC74B4255BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FD1E33-DA54-4B9B-B21F-BCC74B4255BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FD1E33-DA54-4B9B-B21F-BCC74B4255BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FD1E33-DA54-4B9B-B21F-BCC74B4255BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
