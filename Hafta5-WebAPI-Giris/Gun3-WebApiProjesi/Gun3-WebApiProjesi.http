@@ -1,0 +1,6 @@
+@Gun3_WebApiProjesi_HostAddress = http://localhost:5101
+
+GET {{Gun3_WebApiProjesi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
