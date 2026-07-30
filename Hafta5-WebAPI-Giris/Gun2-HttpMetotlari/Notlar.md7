@@ -1,0 +1,12 @@
+﻿# Hafta 5 - Gün 2: HTTP Metotları
+
+## Yapılanlar
+- Postman ile POST isteği atıldı, raw/JSON body gönderildi → 201 Created
+- PUT ile mevcut bir kayıt güncellendi → 200 OK
+- DELETE ile kayıt silme isteği atıldı → 200 OK
+
+## Öğrenilenler
+- HTTP metotları niyet bildirir: GET oku, POST oluştur, PUT güncelle, DELETE sil.
+- 201 Created, POST sonrası "yeni kaynak oluşturuldu" anlamına gelen özel başarı kodudur.
+- Doğru metot seçimi kritiktir çünkü tarayıcılar, önbellek sistemleri ve botlar bu anlamlara göre davranır.
+- GET "safe" kabul edilir; veri değiştiren işlemler GET ile yapılırsa önbellekleme, tarayıcı ön-yüklemesi veya bot taramaları yüzünden istenmeyen/tekrarlı işlemler oluşabilir.
