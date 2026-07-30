@@ -1,0 +1,6 @@
+@Gun4_Controller_HostAddress = http://localhost:5184
+
+GET {{Gun4_Controller_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
