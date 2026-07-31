@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun3-StatusCodes", "Gun3-St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4-PostEkleme", "Gun4-PostEkleme\Gun4-PostEkleme.csproj", "{8E87B133-AEBF-4DA9-9B66-BEEA27F2BA95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun5-PutDelete", "Gun5-PutDelete\Gun5-PutDelete.csproj", "{94842DC8-62A6-4131-854A-C8C17D4239FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8E87B133-AEBF-4DA9-9B66-BEEA27F2BA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E87B133-AEBF-4DA9-9B66-BEEA27F2BA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E87B133-AEBF-4DA9-9B66-BEEA27F2BA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94842DC8-62A6-4131-854A-C8C17D4239FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94842DC8-62A6-4131-854A-C8C17D4239FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94842DC8-62A6-4131-854A-C8C17D4239FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94842DC8-62A6-4131-854A-C8C17D4239FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
