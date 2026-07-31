@@ -1,0 +1,6 @@
+@Gun1_RouteListeleme_HostAddress = http://localhost:5025
+
+GET {{Gun1_RouteListeleme_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
