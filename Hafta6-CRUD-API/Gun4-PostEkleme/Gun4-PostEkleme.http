@@ -1,0 +1,6 @@
+@Gun4_PostEkleme_HostAddress = http://localhost:5137
+
+GET {{Gun4_PostEkleme_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
