@@ -84,11 +84,11 @@ akışı (feature-branch) pratiği yapılır.
 <tr><td align="center">✅</td><td>H5 · Gün 3</td><td>ASP.NET Core Web API Şablonu</td><td>Yeni proje açma &amp; <code>Program.cs</code> incelemesi</td></tr>
 <tr><td align="center">✅</td><td>H5 · Gün 4</td><td>Controller &amp; Routing</td><td><code>OgrenciController</code> + statik string dönen GET</td></tr>
 <tr><td align="center">✅</td><td>H5 · Gün 5</td><td>Swagger Arayüzü</td><td>İlk endpoint'i Swagger üzerinden test etme</td></tr>
-<tr><td align="center">⬜</td><td>H6 · Gün 1</td><td>Route Mantığı</td><td>Statik <code>List&lt;Ogrenci&gt;</code> dönen <code>[HttpGet]</code></td></tr>
-<tr><td align="center">⬜</td><td>H6 · Gün 2</td><td>FromRoute &amp; FromBody</td><td><code>[HttpGet("{id}")]</code> ile ID'ye göre kayıt bulma</td></tr>
-<tr><td align="center">⬜</td><td>H6 · Gün 3</td><td>HTTP Durum Kodları</td><td><code>NotFound()</code> / <code>Ok()</code> (200 · 404 · 400)</td></tr>
-<tr><td align="center">⬜</td><td>H6 · Gün 4</td><td>POST ile Veri Ekleme</td><td>Gelen JSON'u yakalayıp listeye ekleyen <code>[HttpPost]</code></td></tr>
-<tr><td align="center">⬜</td><td>H6 · Gün 5</td><td>PUT &amp; DELETE</td><td>ID'ye göre güncelleme &amp; silme · Soft-Delete kavramı</td></tr>
+<tr><td align="center">✅</td><td>H6 · Gün 1</td><td>Route Mantığı</td><td>Statik <code>List&lt;Ogrenci&gt;</code> dönen <code>[HttpGet]</code></td></tr>
+<tr><td align="center">✅</td><td>H6 · Gün 2</td><td>FromRoute &amp; FromBody</td><td><code>[HttpGet("{id}")]</code> ile ID'ye göre kayıt bulma</td></tr>
+<tr><td align="center">✅</td><td>H6 · Gün 3</td><td>HTTP Durum Kodları</td><td><code>NotFound()</code> / <code>Ok()</code> (200 · 404 · 400)</td></tr>
+<tr><td align="center">✅</td><td>H6 · Gün 4</td><td>POST ile Veri Ekleme</td><td>Gelen JSON'u yakalayıp listeye ekleyen <code>[HttpPost]</code></td></tr>
+<tr><td align="center">✅</td><td>H6 · Gün 5</td><td>PUT &amp; DELETE</td><td>ID'ye göre güncelleme &amp; silme · Soft-Delete kavramı</td></tr>
 </table>
 
 ### 🏛️ FAZ 4 — İleri Mimari, Güvenlik ve Standartlar
