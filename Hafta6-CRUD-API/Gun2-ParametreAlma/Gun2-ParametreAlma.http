@@ -1,0 +1,6 @@
+@Gun2_ParametreAlma_HostAddress = http://localhost:5259
+
+GET {{Gun2_ParametreAlma_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
