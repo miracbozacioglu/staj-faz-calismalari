@@ -1,0 +1,6 @@
+@Gun3_StatusCodes_HostAddress = http://localhost:5185
+
+GET {{Gun3_StatusCodes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
