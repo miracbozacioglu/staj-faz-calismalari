@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Ogrenci {
+  id        Int      @id @default(autoincrement())
+  ad        String
+  soyad     String
+  sinif     Int
+  olusturma DateTime @default(now())
+}
