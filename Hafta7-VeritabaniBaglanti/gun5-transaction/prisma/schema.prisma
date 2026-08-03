@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Ogrenci {
+  id        Int      @id @default(autoincrement())
+  ad        String
+  soyad     String
+  sinif     Int
+  olusturma DateTime @default(now())
+  kayitlar  Kayit[]              // bir öğrencinin birden çok kaydı olabilir
+}
+
+model Kayit {
+  id         Int      @id @default(autoincrement())
+  dersAdi    String
+  ogrenciId  Int
+  ogrenci    Ogrenci  @relation(fields: [ogrenciId], references: [id])
+  tarih      DateTime @default(now())
+}
