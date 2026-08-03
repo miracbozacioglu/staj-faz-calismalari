@@ -101,11 +101,11 @@ akışı (feature-branch) pratiği yapılır.
 
 <table>
 <tr><th>Durum</th><th>Gün</th><th>Konu</th><th>Pratik Çıktı</th></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 1</td><td>Connection String</td><td>Bağlantı dizesini <code>appsettings.json</code>'a ekleme</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 2</td><td>Dependency Injection</td><td><code>AppDbContext</code>'i <code>Program.cs</code>'te register etme</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 3</td><td>Constructor Injection</td><td><code>UrunlerController</code>'a DbContext enjekte etme</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 4</td><td>Asenkron İstek</td><td><code>async/await</code> + <code>ToListAsync()</code> GET endpoint</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 5</td><td>Tracking &amp; Kaydetme</td><td><code>SaveChangesAsync()</code> ile gerçek DB'ye ürün ekleme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 1</td><td>Connection String</td><td>Bağlantı dizesini <code>appsettings.json</code>'a ekleme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 2</td><td>Dependency Injection</td><td><code>AppDbContext</code>'i <code>Program.cs</code>'te register etme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 3</td><td>Constructor Injection</td><td><code>UrunlerController</code>'a DbContext enjekte etme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 4</td><td>Asenkron İstek</td><td><code>async/await</code> + <code>ToListAsync()</code> GET endpoint</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 5</td><td>Tracking &amp; Kaydetme</td><td><code>SaveChangesAsync()</code> ile gerçek DB'ye ürün ekleme</td></tr>
 <tr><td align="center">⬜</td><td>H8 · Gün 1</td><td>DTO Kavramı</td><td><code>UrunResponseDto</code> sınıfı oluşturma</td></tr>
 <tr><td align="center">⬜</td><td>H8 · Gün 2</td><td>Manuel Mapping</td><td><code>Urun</code> → <code>UrunResponseDto</code> dönüşümü</td></tr>
 <tr><td align="center">⬜</td><td>H8 · Gün 3</td><td>Validation (Fail Fast)</td><td><code>if</code> blokları ile gelen veriyi doğrulama</td></tr>
