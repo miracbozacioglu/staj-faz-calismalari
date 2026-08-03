@@ -123,12 +123,12 @@ akışı (feature-branch) pratiği yapılır.
 > Öğrenilen her şeyi birleştirerek sıfırdan kurumsal bir Backend API inşa etmek.
 
 <table>
-<tr><td>🗃️ <b>DB</b></td><td>PostgreSQL</td><td>⚙️ <b>ORM</b></td><td>Entity Framework Core</td></tr>
-<tr><td>🖥️ <b>Backend</b></td><td>.NET Core Web API</td><td>🐳 <b>Deployment</b></td><td>Docker (docker-compose)</td></tr>
-<tr><td>🏗️ <b>Mimari</b></td><td>N-Tier / Temiz Monolitik</td><td>🔐 <b>Güvenlik</b></td><td>JWT &amp; Rol Bazlı Yetki</td></tr>
-<tr><td>📄 <b>Doküman</b></td><td>Swagger</td><td>📦 <b>Standart</b></td><td>DTO &amp; Global Exception Handling</td></tr>
+<tr><td>🗃️ <b>DB</b></td><td>PostgreSQL</td><td>⚙️ <b>ORM</b></td><td>Prisma</td></tr>
+<tr><td>🖥️ <b>Backend</b></td><td>NestJS (Node.js · TypeScript)</td><td>🐳 <b>Deployment</b></td><td>Docker (docker-compose)</td></tr>
+<tr><td>🏗️ <b>Mimari</b></td><td>Modüler / Katmanlı Monolitik</td><td>🔐 <b>Güvenlik</b></td><td>JWT &amp; Rol Bazlı Yetki</td></tr>
+<tr><td>📄 <b>Doküman</b></td><td>Swagger </td><td>📦 <b>Standart</b></td><td>DTO &amp; Global Exception Filter</td></tr>
+<tr><td>🎨 <b>Frontend</b></td><td>React </td><td>🔀 <b>Versiyonlama</b></td><td>Git &amp; GitHub</td></tr>
 </table>
-
 ---
 
 
