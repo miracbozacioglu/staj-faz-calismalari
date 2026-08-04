@@ -8,15 +8,20 @@ uzanan; gün gün ilerleyen uygulamalı staj çalışmalarım.
 
 <br>
 
+<<<<<<< HEAD
 ![C#](https://img.shields.io/badge/C%23-.NET%208.0-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![Backend](https://img.shields.io/badge/Backend-ASP.NET%20Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
+=======
+
+
+
+>>>>>>> main
 ![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/Framework-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/Dil-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Database](https://img.shields.io/badge/Veritaban%C4%B1-SQL%20%2F%20PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Versiyon-Git%20%26%20GitHub-F05032?style=for-the-badge&logo=git&logoColor=white)
-
 </div>
 
 ---
@@ -101,11 +106,11 @@ akışı (feature-branch) pratiği yapılır.
 
 <table>
 <tr><th>Durum</th><th>Gün</th><th>Konu</th><th>Pratik Çıktı</th></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 1</td><td>Connection String</td><td>Bağlantı dizesini <code>appsettings.json</code>'a ekleme</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 2</td><td>Dependency Injection</td><td><code>AppDbContext</code>'i <code>Program.cs</code>'te register etme</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 3</td><td>Constructor Injection</td><td><code>UrunlerController</code>'a DbContext enjekte etme</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 4</td><td>Asenkron İstek</td><td><code>async/await</code> + <code>ToListAsync()</code> GET endpoint</td></tr>
-<tr><td align="center">⬜</td><td>H7 · Gün 5</td><td>Tracking &amp; Kaydetme</td><td><code>SaveChangesAsync()</code> ile gerçek DB'ye ürün ekleme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 1</td><td>Connection String</td><td>Bağlantı dizesini <code>appsettings.json</code>'a ekleme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 2</td><td>Dependency Injection</td><td><code>AppDbContext</code>'i <code>Program.cs</code>'te register etme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 3</td><td>Constructor Injection</td><td><code>UrunlerController</code>'a DbContext enjekte etme</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 4</td><td>Asenkron İstek</td><td><code>async/await</code> + <code>ToListAsync()</code> GET endpoint</td></tr>
+<tr><td align="center">✅</td><td>H7 · Gün 5</td><td>Tracking &amp; Kaydetme</td><td><code>SaveChangesAsync()</code> ile gerçek DB'ye ürün ekleme</td></tr>
 <tr><td align="center">⬜</td><td>H8 · Gün 1</td><td>DTO Kavramı</td><td><code>UrunResponseDto</code> sınıfı oluşturma</td></tr>
 <tr><td align="center">⬜</td><td>H8 · Gün 2</td><td>Manuel Mapping</td><td><code>Urun</code> → <code>UrunResponseDto</code> dönüşümü</td></tr>
 <tr><td align="center">⬜</td><td>H8 · Gün 3</td><td>Validation (Fail Fast)</td><td><code>if</code> blokları ile gelen veriyi doğrulama</td></tr>
@@ -123,12 +128,12 @@ akışı (feature-branch) pratiği yapılır.
 > Öğrenilen her şeyi birleştirerek sıfırdan kurumsal bir Backend API inşa etmek.
 
 <table>
-<tr><td>🗃️ <b>DB</b></td><td>PostgreSQL</td><td>⚙️ <b>ORM</b></td><td>Entity Framework Core</td></tr>
-<tr><td>🖥️ <b>Backend</b></td><td>.NET Core Web API</td><td>🐳 <b>Deployment</b></td><td>Docker (docker-compose)</td></tr>
-<tr><td>🏗️ <b>Mimari</b></td><td>N-Tier / Temiz Monolitik</td><td>🔐 <b>Güvenlik</b></td><td>JWT &amp; Rol Bazlı Yetki</td></tr>
-<tr><td>📄 <b>Doküman</b></td><td>Swagger</td><td>📦 <b>Standart</b></td><td>DTO &amp; Global Exception Handling</td></tr>
+<tr><td>🗃️ <b>DB</b></td><td>PostgreSQL</td><td>⚙️ <b>ORM</b></td><td>Prisma</td></tr>
+<tr><td>🖥️ <b>Backend</b></td><td>NestJS (Node.js · TypeScript)</td><td>🐳 <b>Deployment</b></td><td>Docker (docker-compose)</td></tr>
+<tr><td>🏗️ <b>Mimari</b></td><td>Modüler / Katmanlı Monolitik</td><td>🔐 <b>Güvenlik</b></td><td>JWT &amp; Rol Bazlı Yetki</td></tr>
+<tr><td>📄 <b>Doküman</b></td><td>Swagger </td><td>📦 <b>Standart</b></td><td>DTO &amp; Global Exception Filter</td></tr>
+<tr><td>🎨 <b>Frontend</b></td><td>React </td><td>🔀 <b>Versiyonlama</b></td><td>Git &amp; GitHub</td></tr>
 </table>
-
 ---
 
 
