@@ -10,6 +10,10 @@ uzanan; gün gün ilerleyen uygulamalı staj çalışmalarım.
 
 ![C#](https://img.shields.io/badge/C%23-.NET%208.0-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![Backend](https://img.shields.io/badge/Backend-ASP.NET%20Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/Framework-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/Dil-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Database](https://img.shields.io/badge/Veritaban%C4%B1-SQL%20%2F%20PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Versiyon-Git%20%26%20GitHub-F05032?style=for-the-badge&logo=git&logoColor=white)
 
