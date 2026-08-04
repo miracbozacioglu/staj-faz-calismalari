@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Ogrenci {
+  id           Int      @id @default(autoincrement())
+  ad           String
+  soyad        String
+  sinif        Int
+  email        String   @unique
+  sifreHash    String              // dışarı ASLA gitmemeli
+  tcKimlikNo   String?             // dışarı ASLA gitmemeli
+  olusturma    DateTime @default(now())
+  guncelleme   DateTime @updatedAt
+}
