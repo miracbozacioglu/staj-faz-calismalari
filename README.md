@@ -105,11 +105,11 @@ akışı (feature-branch) pratiği yapılır.
 <tr><td align="center">✅</td><td>H7 · Gün 3</td><td>Constructor Injection</td><td><code>UrunlerController</code>'a DbContext enjekte etme</td></tr>
 <tr><td align="center">✅</td><td>H7 · Gün 4</td><td>Asenkron İstek</td><td><code>async/await</code> + <code>ToListAsync()</code> GET endpoint</td></tr>
 <tr><td align="center">✅</td><td>H7 · Gün 5</td><td>Tracking &amp; Kaydetme</td><td><code>SaveChangesAsync()</code> ile gerçek DB'ye ürün ekleme</td></tr>
-<tr><td align="center">⬜</td><td>H8 · Gün 1</td><td>DTO Kavramı</td><td><code>UrunResponseDto</code> sınıfı oluşturma</td></tr>
-<tr><td align="center">⬜</td><td>H8 · Gün 2</td><td>Manuel Mapping</td><td><code>Urun</code> → <code>UrunResponseDto</code> dönüşümü</td></tr>
-<tr><td align="center">⬜</td><td>H8 · Gün 3</td><td>Validation (Fail Fast)</td><td><code>if</code> blokları ile gelen veriyi doğrulama</td></tr>
-<tr><td align="center">⬜</td><td>H8 · Gün 4</td><td>try-catch &amp; Hata Yönetimi</td><td>Çökme durumunda 500 Internal Server Error dönme</td></tr>
-<tr><td align="center">⬜</td><td>H8 · Gün 5</td><td>LINQ ile Arama</td><td>Ürün isimlerinde <code>Contains</code> ile filtreleme</td></tr>
+<tr><td align="center">✅</td><td>H8 · Gün 1</td><td>DTO Kavramı</td><td><code>UrunResponseDto</code> sınıfı oluşturma</td></tr>
+<tr><td align="center">✅</td><td>H8 · Gün 2</td><td>Manuel Mapping</td><td><code>Urun</code> → <code>UrunResponseDto</code> dönüşümü</td></tr>
+<tr><td align="center">✅</td><td>H8 · Gün 3</td><td>Validation (Fail Fast)</td><td><code>if</code> blokları ile gelen veriyi doğrulama</td></tr>
+<tr><td align="center">✅</td><td>H8 · Gün 4</td><td>try-catch &amp; Hata Yönetimi</td><td>Çökme durumunda 500 Internal Server Error dönme</td></tr>
+<tr><td align="center">✅</td><td>H8 · Gün 5</td><td>LINQ ile Arama</td><td>Ürün isimlerinde <code>Contains</code> ile filtreleme</td></tr>
 <tr><td align="center">⬜</td><td>H9 · Gün 1</td><td>Separation of Concerns</td><td><code>Services</code> klasörünün açılması</td></tr>
 <tr><td align="center">⬜</td><td>H9 · Gün 2</td><td>Interface</td><td><code>IUrunService</code> arayüzünün tanımlanması</td></tr>
 <tr><td align="center">⬜</td><td>H9 · Gün 3</td><td>Servis Implementasyonu</td><td><code>UrunService</code> + DbContext'in servise taşınması</td></tr>
